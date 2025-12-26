@@ -1,27 +1,19 @@
-## Alisa + Bitrix24 + Home Assistant Integration
+# Alisa + Bitrix24 + Home Assistant Integration
 
-This project provides voice notifications using Yandex Alice
-when business events occur in Bitrix24.
+## 🧠 Overview
 
-### Features
-- Bitrix24 webhook listener (Flask)
-- Text-to-Speech via Home Assistant
-- Multi-device support (Yandex Stations, Siri)
-- Secure HTTPS support
-- Auto-restart on failure
+A webhook service that receives Bitrix24 events and sends voice notifications
+to Yandex Smart Speakers and other TTS endpoints via Home Assistant.
 
-### Use cases
-- New deal notifications
-- Payment confirmations
-- CRM automation alerts
-- Smart office announcements
+## 📌 Features
 
-### Tech stack
-- Python / Flask
-- Home Assistant API
-- Bitrix24 Webhooks
+- Listens for Bitrix24 POST webhooks
+- Sends TTS (text-to-speech) messages to smart devices
+- Handles errors and retries
+- Easy to configure
 
-### Deployment
-1. Configure `config.py`
-2. Install dependencies
-3. Run behind Nginx / SSL
+## 🛠 Setup
+
+1. Copy `config.example.py` → `config.py`
+2. Fill in your Home Assistant token & URL
+3. Install dependencies:
