@@ -1,4 +1,4 @@
-# DevOps Automation Projects
+# Automation Projects
 
 This repository contains real-world automation and system administration projects
 that demonstrate practical business solutions with PHP and Python.
