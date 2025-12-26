@@ -1,19 +1,18 @@
-## Website Security Auto-Ban Script
+# Website Security Auto-Ban Script
 
-Simple PHP-based protection against brute-force
-and suspicious activity.
+## 🧠 Overview
 
-### Features
-- IP auto-blocking
-- Login attempt monitoring
-- Lightweight server-side protection
-- Easy integration
+A small PHP script that improves website security by blocking
+suspicious and brute-force requests.
 
-### Use cases
-- Shared hosting security
-- CMS protection
-- Admin panel hardening
+## 📌 Features
 
-### Tech stack
-- PHP
-- Apache / Nginx
+- Monitors HTTP requests
+- Bans IPs that match suspicious patterns
+- Easily customizable
+
+## 🛠 Usage
+
+Upload `autoban.php` to your site, include it on protected pages,
+adjust patterns as needed.
+
